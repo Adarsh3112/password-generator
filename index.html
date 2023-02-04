@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+    <title>Password</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="container">
+        <div id="modes">
+            <button id="mode-changing" onclick="modeChange()"><img src="images/night-mode.png"></button>
+        </div>
+<div class="headings">
+    <h2 id="first-heading">Generate a</h2>
+    <p id="second-heading">random password</p>
+    <p id="insecure">Never use an insecure password again.</p>
+</div>
+
+<!-- button for geberating password starts here -->
+<button id="generate" onclick="generate()"> Generate passwords </button>
+<!-- button ends here  -->
+<hr id="lines">
+<div class="hints">
+    <h6 id="pass-hints1"></h6><span></span><h6 id="pass-hints2"></h6>
+
+</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
